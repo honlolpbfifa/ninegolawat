@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	
 	var b strings.Builder
 
 	b.WriteString("Hello")
@@ -14,5 +15,5 @@ func main() {
 
 	b.WriteString("World")
 
-	fmt.Println(b.string())
+	fmt.Println(ฺb.String())
 }
