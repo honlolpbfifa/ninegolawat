@@ -4,6 +4,5 @@ import "fmt"
 
 func main() {
 
-	fmt.Println(สวัสดีเราชื่อ นายกลวัชร แสงฮาด ชื่อเล่นเตอร์ บ้านเลขที่ 109/1 ต.โพธ์กลาง อ.เมือง จ.นครราชสีมา)
-
+	fmt.Println(ter Golawat sanghard)
 }
