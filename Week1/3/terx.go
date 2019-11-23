@@ -1,11 +1,9 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 
-	fmt.Println
+	fmt.Println(1\n2\n3\n4\n5\n)
 
 }
