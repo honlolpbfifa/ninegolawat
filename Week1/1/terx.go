@@ -4,6 +4,6 @@ import "fmt"
 
 func main() {
 
-fmt.Println(เตอร์)
+	fmt.Println("เตอร์เองง")
 
 }
