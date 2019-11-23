@@ -6,7 +6,7 @@ func main() {
 
 	fmt.Print(`\n \t Backticks`)
 
-	fmr.Print("\n \t double quote")
+	fmt.Print("\n \t double quote")
 
 	fmt.Println()
 
