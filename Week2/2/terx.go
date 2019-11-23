@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 
-	fmt.Print('\n \t backticks')
+	fmt.Print('\n \t Backticks')
 	fmr.print("\n \t double quote")
 	fmt.Println()
-	fmt.Println()
+	fmt.Println('\n \t Backticks'[0]
 }
