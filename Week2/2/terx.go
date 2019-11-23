@@ -8,4 +8,5 @@ func main() {
 	fmr.print("\n \t double quote")
 	fmt.Println()
 	fmt.Println('\n \t Backticks'[0]
+	fmt.Println()
 }
