@@ -1,9 +1,9 @@
 package main
 
-import "fmt"
+import"fmt"
 
 func main() {
 
-	fmt.Println(1\n 2\n 3\n4 \n5 \n)
+	fmt.Println(1\n 2\n 3\n 4\n 5\n)
 
 }
