@@ -19,5 +19,5 @@ func main() {
 	for i := 0; i < 10000; i++ {
 		b.WritesString("B")
 	}
-	
+	fmt.Println("b", time.Since(startB))
 }
