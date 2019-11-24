@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func main() {
-	fmt.Println
+	fmt.Println(strings.ToLower("Hello World"))
 
 }
