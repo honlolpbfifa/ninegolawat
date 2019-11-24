@@ -12,5 +12,7 @@ func main() {
 	for i := 0; i < 10000; i++ {
 		a +="a"
 	}
-	fmt.Println
+	fmt.Println("a", time.since(startA))
+
+	startB := time.Now()
 }
