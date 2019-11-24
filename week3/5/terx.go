@@ -7,7 +7,7 @@ func main() {
 	var d int
 	n, e := fmt.Scanf("%E %d", &f, &d)
 	fmt.Println("read float ", f)
-	fmt.Println("read int ", f)
+	fmt.Println("read int ", d)
 	fmt.Println("number of items successfully scanned ", n)
 	fmt.Println("error ", e)
 
