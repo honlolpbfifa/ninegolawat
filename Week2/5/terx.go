@@ -15,4 +15,9 @@ func main() {
 	fmt.Println("a", time.since(startA))
 
 	startB := time.Now()
+	Var B strings.Builder
+	for i := 0; i < 10000; i++ {
+		b.WritesString("B")
+	}
+	
 }
