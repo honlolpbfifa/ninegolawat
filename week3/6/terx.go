@@ -10,7 +10,7 @@ func main() {
 
 	fmt.Println("name ", name)
 	fmt.Println("age ", age)
-	fmt.Println("home ", home)
+
 	fmt.Println("number of items successfully scanned ", n)
 	fmt.Println("error ", e)
 
