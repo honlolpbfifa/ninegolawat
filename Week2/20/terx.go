@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-const greeting = "Hello World"
+const greeting = ("Hello World")
 
 func main() {
 	fmt.Println(greeting)
-	greeting = "Hallo Wait"
+	greeting = ("Halo Wait")
 	fmt.Println(greeting)
 
 }
