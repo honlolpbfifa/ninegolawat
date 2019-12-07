@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	student := []string{"goko", "goko1", "goko2", "goko3", "goko4", "goko5", "goko6", "goko7", "goko8", "goko9"}
+	student := []int16{"1", "", "2", "3", "4", "5", "6", "7", "8", "9"}
 
 	fmt.Println(student)
 }
