@@ -11,5 +11,6 @@ func main() {
 	y := make([]int, 5, 15)
 	fmt.Println(y)
 	fmt.Println(len(y))
+	fmt.Println(cap(y))
 
 }
