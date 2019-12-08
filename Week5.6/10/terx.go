@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(len(y))
 	fmt.Println(cap(y))
 
-	z := make([]int, 5, 10)
+	z := make([]int, 10, 5)
 	fmt.Println(z)
 	fmt.Println(len(z))
 	fmt.Println(cap(z))
