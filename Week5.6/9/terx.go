@@ -1,8 +1,8 @@
 package main
 import "fmt"
 func main() {
-	names := [1]string{1}
-	names[0] := "Guko"
+	names := []string{}
+	names[0] := "Ter"
 	fmt.Println(names)
 	
 }
