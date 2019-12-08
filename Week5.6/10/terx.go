@@ -8,7 +8,7 @@ func main() {
 	fmt.Println(len(x))
 	fmt.Println(cap(x))
 
-	y := make([]int, 5, 15, 20)
+	y := make([]int, 5, 10)
 	fmt.Println(y)
 	fmt.Println(len(y))
 	fmt.Println(cap(y))
