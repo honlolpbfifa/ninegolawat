@@ -9,6 +9,6 @@ func main() {
 
 	fmt.Println(numbers)
 	fmt.Println(tornunsue)
-	fmt.Println
+	fmt.Println(B3)
 
 }
