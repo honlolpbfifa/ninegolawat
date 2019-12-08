@@ -17,7 +17,9 @@ func main() {
 			{8, 9}
 			{80, 90}
 			{800, 900}
-		}
+		},
 	}
+	fmt.Println(Nm)
+	fmt.Println(Nm[1][2][0])
 
 }
