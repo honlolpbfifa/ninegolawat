@@ -9,7 +9,7 @@ func main() {
 	x := B1[0:2]
 	fmt.Println(x)
 
-	y := x[2:4]
+	y := x[2:1]
 	fmt.Println(y)
 
 	z := y[0:1]
