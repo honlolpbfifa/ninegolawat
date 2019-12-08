@@ -3,17 +3,17 @@ package main
 import "fmt"
 
 func main() {
-	student_1 := "Narutoooo"
-	student_2 := "Sasukaaa"
-	student_3 := "Sakuura"
-	student_4 := "sorry"
-	student_5 := "sawadD"
-	student_6 := "issa"
-	student_7 := "zaha"
-	student_8 := "paap"
-	student_9 := "gara"
-	student_10 := "hare"
+	B1 := "Narutoooo"
+	B2 := "Sasukaaa"
+	B3 := "Sakuura"
+	B4 := "sorry"
+	B5 := "sawadD"
+	B6 := "issa"
+	B7 := "zaha"
+	B8 := "paap"
+	B9 := "gara"
+	B10 := "hare"
 
-	fmt.Println(student_1, student_2, student_3, student_4, student_5, student_6, student_7, student_8, student_9, student_10)
+	fmt.Println(B10, B8, B1, B5, B4, B7, B3, B2, B6, B9)
 
 }
