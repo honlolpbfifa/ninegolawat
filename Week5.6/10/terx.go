@@ -1,5 +1,7 @@
 package main
+
 import "fmt"
+
 func main() {
 	x := make([]int, 5)
 	fmt.Println(x)
@@ -7,7 +9,6 @@ func main() {
 	fmt.Println(cap(x))
 
 	y := make([]int, 5, 15)
-	
+	fmt.Println(x)
 
-	
 }
