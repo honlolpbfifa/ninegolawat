@@ -1,8 +1,10 @@
 package main
 
-func main() {
-	B1 := [19]string{"A, s, d, f, g, h, j, k, l, m"}
+import "fmt"
 
-	fmt.println(B1)
+func main() {
+	B1 := [10]string{"A, s, d, f, g, h, j, k, l, m", "sa, ma"}
+
+	fmt.Println(B1)
 
 }
