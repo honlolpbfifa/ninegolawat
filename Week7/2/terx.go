@@ -1,7 +1,6 @@
 package main
 
-import "fmt"
-
-func main() {
-	fmt.Println("Hesssssssssllo")
+func subtract(x int, y int) int {
+	ans := x - y
+	return ans
 }
