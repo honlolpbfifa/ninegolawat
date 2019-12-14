@@ -1,5 +1,0 @@
-package terx
-
-func main() {
-
-}
