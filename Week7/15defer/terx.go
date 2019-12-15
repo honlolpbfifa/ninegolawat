@@ -8,5 +8,5 @@ func say() {
 func main() {
 
 	defer say()
-	fmt.Println("")
+	fmt.Println("Hello Word")
 }
