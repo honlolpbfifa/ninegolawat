@@ -2,11 +2,9 @@ package main
 
 import "fmt"
 
-func say(greet string) func(string) func(int)string int {
+func say(greet string) func(string) string {
 	return func(name string) string {
-		return func(age int) int {
-			return greet + name + age
-		}
+		return greet + name
 	}
 }
 
@@ -15,6 +13,5 @@ func main() {
 
 	fmt.Println(x("goku"))
 	fmt.Println(x("gohan"))
-	fmt.Println(x(18))
 
 }
