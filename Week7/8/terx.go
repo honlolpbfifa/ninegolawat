@@ -10,7 +10,7 @@ func say(greet string) func(string) string {
 func main() {
 	x := say("Hello")
 
-	fmt.Println(x())
-	fmt.Println(x())
+	fmt.Println(x("goku"))
+	fmt.Println(x("gohan"))
 
 }
