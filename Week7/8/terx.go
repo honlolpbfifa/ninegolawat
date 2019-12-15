@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func say(greet string) func(string) string {
+func say(greet string) func(string) func(int)string int {
 	return func(name string) string {
 		return func(age int) int {
 			return greet + name + age
