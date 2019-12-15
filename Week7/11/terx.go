@@ -1,8 +1,11 @@
 package main
-func suntrav=ct(number int) {
+
+func suntract(number int) {
 	number = number - 1
 }
 
 func main() {
+	x := 10
+	suntract
 
 }
