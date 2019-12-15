@@ -4,13 +4,17 @@ import "fmt"
 
 func say(greet string) func(string) string {
 	return func(name string) string {
-		return greet + name
+		return func(age int) int {
+			return greet + name + age
+		}
 	}
 }
+
 func main() {
 	x := say("Hello")
 
 	fmt.Println(x("goku"))
 	fmt.Println(x("gohan"))
+	fmt.Println(x(18))
 
 }
