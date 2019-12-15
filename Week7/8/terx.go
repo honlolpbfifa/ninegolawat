@@ -11,5 +11,6 @@ func main() {
 	x := say("Hello")
 
 	fmt.Println
+	fmt.Println
 
 }
