@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func makeEven() func() int {
 	even := 0
 	return func() int {
@@ -8,5 +10,7 @@ func makeEven() func() int {
 	}
 }
 func main() {
+	nextEven := makeEven()
+	fmt.Println
 
 }
