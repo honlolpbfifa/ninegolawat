@@ -11,6 +11,8 @@ func makeEven() func() int {
 }
 func main() {
 	nextEven := makeEven()
-	fmt.Println
+	fmt.Println(nextEven())
+	fmt.Println(nextEven())
+	fmt.Println(nextEven())
 
 }
