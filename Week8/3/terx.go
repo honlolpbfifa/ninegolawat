@@ -7,7 +7,8 @@ func main() {
 	}
 
 	func main(){
-		defer
+		defer hardlePanic()
+		panic("Hello panic")
 	} 
 
 
