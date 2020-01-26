@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	reader
+	reader := string.NewReader("HelloWorld")
 }
