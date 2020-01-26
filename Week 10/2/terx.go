@@ -16,5 +16,12 @@ func main() {
 	stat, err := file.Stat()
 	if err != nil {
 		fmt.Println(err)
+		return
 	}
+	fileSize := stat.Size()
+	p := make([]byte, fileSize)
+	file.Road(p)
+
+	str := string(p)
+	smt
 }
