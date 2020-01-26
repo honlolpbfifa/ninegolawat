@@ -20,8 +20,8 @@ func main() {
 	}
 	fileSize := stat.Size()
 	p := make([]byte, fileSize)
-	file.Road(p)
+	file.Read(p)
 
 	str := string(p)
-	smt
+	fmt.Println(str)
 }
