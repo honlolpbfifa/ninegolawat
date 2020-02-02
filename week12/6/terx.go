@@ -14,7 +14,9 @@ func increment(data *int, mutex *sync.WaitGroup) {
 	*data++
 	fmt.Println(time.Since(start), "Increment to:", *data)
 }
-func read(data)
+func read(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
+	start
+}
 func main() {
 
 }
