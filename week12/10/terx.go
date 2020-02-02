@@ -5,7 +5,7 @@ import "fmt"
 func sum(c chan int, number ...int) {
 	sum := 0
 	for _, V := range number {
-		sum = sum + v
+		sum = sum + V
 	}
 	c <- sum
 }
