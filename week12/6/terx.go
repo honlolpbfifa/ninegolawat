@@ -23,7 +23,8 @@ func read(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
 
 }
 func main() {
-	var mutex sync.Mutexvar
+	var mutex sync.Mutex
 	var wg sync.WaitGroup
+	data := 10
 
 }
