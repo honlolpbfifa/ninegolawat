@@ -26,5 +26,10 @@ func main() {
 	var mutex sync.Mutex
 	var wg sync.WaitGroup
 	data := 10
+	wg.add(10)
+
+	for i := 0; i < 5; i++ {
+		go increment(&data, &mutex, &wg)
+	}
 
 }
