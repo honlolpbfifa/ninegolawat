@@ -9,4 +9,6 @@ func say(txt string) {
 	}
 }
 
-func
+func main() {
+	go say("Hello")
+}
