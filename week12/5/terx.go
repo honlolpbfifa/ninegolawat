@@ -1,8 +1,15 @@
 package main
+
+import (
+	"fmt"
+	"sync"
+	"time"
+)
+
 func say(txt string, sleep time.Duration, wg *sync.WaitGroup) {
-	dafer wg.Done()
-	fmt.Sprintln
+	defer wg.Done()
+	fmt.Sprintln(txt)
 }
 func main() {
-	
+
 }
