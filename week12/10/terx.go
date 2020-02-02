@@ -20,6 +20,7 @@ func main() {
 	go sum(c, 1, 2, 3)
 	go sum(c, 10, 11)
 
-	vat input string
+	var input string
+	fmt.Scan(&input)
 
 }
