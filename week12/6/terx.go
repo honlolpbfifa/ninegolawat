@@ -16,8 +16,8 @@ func increment(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
 }
 func read(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
 	start := time.Now()
-	defer wg.Gone()
-	defer wutex.Unlock()
+	defer wg.Done()
+	defer mutex.Unlock()
 	mutex.Lock()
 	fmt.Println(time.Since(start), "Data =", *data)
 
@@ -26,7 +26,7 @@ func main() {
 	var mutex sync.Mutex
 	var wg sync.WaitGroup
 	data := 10
-	wg.add(10)
+	wg.Add(10)
 
 	for i := 0; i < 5; i++ {
 		go increment(&data, &mutex, &wg)
