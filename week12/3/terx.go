@@ -10,5 +10,8 @@ func say(txt string) {
 		fmt.Println(time.Now(), ":", i, ":", txt)
 		time.Sleep(time.Millisecond)
 	}
-
+}
+func main() {
+	go say("Hello")
+	go say("Hi")
 }
