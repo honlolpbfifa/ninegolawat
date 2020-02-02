@@ -15,7 +15,12 @@ func increment(data *int, mutex *sync.WaitGroup) {
 	fmt.Println(time.Since(start), "Increment to:", *data)
 }
 func read(data *int, mutex *sync.Mutex, wg *sync.WaitGroup) {
-	start
+	start := time.Now()
+	defer wg.Gone()
+	defer wutex.Unlock()
+	mutex.Lock()
+	fmt.Println(time.Since(start), "Data =", *data)
+
 }
 func main() {
 
