@@ -9,7 +9,7 @@ import (
 func increment(data *int, mutex *sync.WaitGroup) {
 	start := time.Now()
 	defer wg.Done()
-	defer mutrx.Unlock()
+	defer mutex.Unlock()
 	mutex.Lock()
 	*data++
 	fmt.Println(time.Since(start), "Increment to:", *data)
@@ -34,5 +34,6 @@ func main() {
 	for i := 0; i < 5; i++ {
 		go read(&data, &mutex, &wg)
 	}
+	wg.Wait
 
 }
