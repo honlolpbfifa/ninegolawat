@@ -11,5 +11,6 @@ func walkFn(path string, info os.FileInfo, err error) error {
 }
 
 func main() {
+	filepath.Waik(".", walkFn)
 
 }
