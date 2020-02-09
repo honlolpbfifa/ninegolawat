@@ -8,6 +8,10 @@ func send1(c <-chan string) {
 func receive1(c <-chan string) {
 	fmt.Println(<-c)
 }
-func main() {
+func send2(c chan<- string) {
+	c <- "Hello"
+}
+func receive2(c chan<- string) {
+	fmt.Println(<-c)
 
 }
