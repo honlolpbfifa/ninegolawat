@@ -13,6 +13,6 @@ func main() {
 	}
 	for _, fi := range fileInfos {
 		filename := fi.Name()
-		fmt
+		fmt.Println(filename)
 	}
 }
