@@ -9,5 +9,7 @@ func main() {
 		fmt.Println("Zero")
 	case 1:
 		fmt.Println("one")
+	case 2:
+		fmt.Println("two")
 	}
 }
