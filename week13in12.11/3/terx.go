@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"path/filepath"
 )
 
 func walkFn(path string, info os.FileInfo, err error) error {
@@ -11,6 +12,6 @@ func walkFn(path string, info os.FileInfo, err error) error {
 }
 
 func main() {
-	filepath.Waik(".", walkFn)
+	filepath.Walk(".", walkFn)
 
 }
