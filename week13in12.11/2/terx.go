@@ -10,7 +10,7 @@ func main() {
 	if err != nil {
 		return
 	}
-	defer dir.close()
+	defer dir.Close()
 
 	fileIndos, err := dir.Readdir(-1)
 	if err != nil {
