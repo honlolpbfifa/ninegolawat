@@ -9,6 +9,6 @@ func main() {
 	}
 	defer file.Close()
 
-	file.WriteStrinf("Hello \n")
-	file.WriteStrinf("i am my FIle.txt")
+	file.WriteString("Hello \n")
+	file.WriteString("i am myFile .txt")
 }
